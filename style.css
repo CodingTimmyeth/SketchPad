@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+    height: 100vh;
+}
+#container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+}
+#container div{
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+}
