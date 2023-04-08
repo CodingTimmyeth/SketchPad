@@ -22,3 +22,17 @@ body{
     height: auto;
     border: 1px solid black;
 }
+button{
+    padding: 7px 15px;
+    border: none;
+    border-radius: 14px;
+    color: white;
+    background-color: #00acee;
+    cursor: pointer;
+}
+.screen {
+    display: grid;
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+  }
